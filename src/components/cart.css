@@ -1,0 +1,54 @@
+.aside-cart{
+    position: fixed;
+    top: 0;
+    right: 0;
+    background:#e1e1dc;
+    padding: 0em 1em 15em 1em;
+    width: 30em;
+}
+
+.content-cart{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+
+.images-cart{
+    border-radius: 60%;
+    width: 14%;
+    padding: 0.5em;
+    
+}
+
+.article-cart{
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.art-cart{
+    display:flex;
+}
+
+.lyric-cart{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 1.2em;
+}
+
+.buton-cart{
+    background: transparent;
+    border: none;
+    margin: 1em 0em;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.butons-cart{
+    background: transparent;
+    border:none;
+    color: rgb(16, 18, 145);
+    font-size: 18px;
+    font-weight: 700;
+}

@@ -1,0 +1,255 @@
+.home-container{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url(/src/source/background.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+
+.home-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    position: absolute;
+}
+
+.home-title{
+    position: fixed;
+    top: 29%;
+    text-align: center;
+    left: 8%;
+}
+
+.home-title-p{
+    font-size: 190px;
+    margin: 0;
+    -webkit-text-stroke: 3px black;
+    color: #ffff00cc;
+    font-family: sans-serif;
+    text-shadow: 8px 2px #000000f0;
+}
+
+.home-title-h{
+    margin: 0;
+    font-size: 30px;
+    position: fixed;
+    left: 82%;
+    top: 61%;
+    color: #000000c7;
+    font-family: fantasy;
+}
+
+.home-image{
+    width: 13em;
+    position: fixed;
+    top: -9%;
+    right: 82%;
+}
+
+.home-icon{
+    position: fixed;
+    left:85%;
+    top: 6%;
+}
+
+.home-icon1{
+    position: fixed;
+    left:88%;
+    top: 6%;
+}
+
+
+.home-link{
+    font-size: 26px;
+    color: white;
+    text-decoration: none;
+    border: 1px 1px;
+    background: #5e5b69b0;
+    border: 1px 1px black;
+    padding: 0.5em;
+    position: fixed;
+    top: 76%;
+    left: 40%;
+    border-radius: 23px;
+    box-shadow: 3px 5px 8px #000000;
+    font-weight: 600;
+    font-family: Robotic;
+}
+
+.home-image-top{
+    width: 21em;
+    height: 27em;
+    position: fixed;
+    top: 13%;
+    left: 9%;
+    transform: rotate(354deg);
+    border-radius: 10px;
+    box-shadow: 1px 2px 4px black;
+    opacity: 0.9;
+}
+
+.home-image-bottom{
+    width: 22em;
+    height: 25em;
+    position: fixed;
+    top: 30%;
+    left: 66%;
+    transform: rotate(5deg);
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px black;
+    opacity: 0.9;
+}
+
+.home-link:hover{
+    color:#141e77;
+}
+
+/* ------- MEDIA QUERIES----*/
+
+@media screen and (max-width: 1263px){
+    .home-title {
+        top: 10%;
+    }
+
+    .home-title-h {
+        left: 69%;
+        top: 77%;
+       
+    }
+
+    .home-link {
+        top: 85%;
+    }
+}
+
+/* ------- MEDIA QUERIES----*/
+
+@media screen and (max-width: 1129px){
+    .home-image-bottom {
+        top: 28%;
+        left: 62%;
+    }
+
+    .home-link {
+        left: 36%;
+    }
+}
+
+@media screen and (max-width: 982px){
+    .home-title {
+        left: 0%;
+    }
+
+    .home-image {
+        right: 78%;
+    }
+
+    .home-image-top {
+        width: 20em;
+        height: 25em;
+    }
+
+    .home-image-bottom {
+        width: 20em;
+        height: 23em;
+        top: 32%;
+        left: 56%;
+    }
+}
+
+@media screen and (max-width: 774px){
+    .home-title-p {
+        font-size: 183px;
+    }
+
+    .home-image {
+        right: 74%;
+    }
+
+    .home-image-top {
+        width: 18em;
+        height: 23em;
+        top: 15%;
+        left: 6%;
+    }
+
+    .home-image-bottom {
+        width: 19em;
+        height: 22em;
+        top: 29%;
+        left: 51%;
+    }
+
+    .home-link {
+        top: 87%;
+        font-size: 25px;
+        left: 31%;
+    }
+}
+
+@media screen and (max-width: 660px){
+    .home-title-p {
+        font-size: 154px;
+        top: 14%;
+    }
+
+    .home-image-top {
+        width: 17em;
+        height: 22em;
+        top: 12%;
+    }
+
+    .home-image-bottom {
+        width: 18em;
+        height: 21em;
+        top: 30%;
+        left: 46%;
+    }
+
+    .home-image {
+        right: 71%;
+    }
+
+    .home-icon {
+        left: 81%;
+      
+    }
+
+    .home-title {
+        top: 16%;
+    }
+}
+
+@media screen and (max-width: 610px){
+    .home-image-bottom {
+        left: 45%;
+    }
+}
+
+@media screen and (max-width: 556px){
+    .home-title-p {
+        font-size: 142px;
+    }
+    .home-image-bottom {
+        left: 40%;
+    }
+}
+
+@media screen and (max-width: 507px){
+    .home-title-p {
+        font-size: 130px;
+    }
+    .home-title {
+        top: 20%;
+    }
+    .home-title-h {
+        top: 72%;
+    }
+    .home-image-bottom {
+        left: 37%;
+    }
+    .home-image {
+        right: 68%;
+    }
+    
+}
